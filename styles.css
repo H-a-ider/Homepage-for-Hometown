@@ -1,0 +1,64 @@
+.sk {
+    background-image: url('skardu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+    text-align: center;
+    color: skyblue;
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
+    font-size: large;
+  }
+
+#h{
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+}
+
+.city {
+    background: linear-gradient(skyblue, grey );
+    /* background-size: cover; */
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.img-c{
+    width: 300px;
+    border-radius: 50%;
+    padding: 60px;
+
+}
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .city {
+      flex-direction: column;
+    }
+  
+    .img-c {
+      margin: 0 auto;
+    }
+  }
+.avatar{
+    width: 150px;
+}
+
+.card {
+    border-bottom: 5px solid #d8cefe;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    background: #ccd5ae;
+    color: #2b2839;
+
+
+}
+h5{
+    text-align: center;
+}
