@@ -46,19 +46,3 @@
     width: 150px;
 }
 
-.card {
-    border-bottom: 5px solid #d8cefe;
-    width: 400px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    text-align: center;
-    background: #ccd5ae;
-    color: #2b2839;
-
-
-}
-h5{
-    text-align: center;
-}
